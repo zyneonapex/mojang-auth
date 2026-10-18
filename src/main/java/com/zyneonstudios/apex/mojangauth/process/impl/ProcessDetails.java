@@ -1,0 +1,16 @@
+package com.zyneonstudios.apex.mojangauth.process.impl;
+
+import java.util.HashMap;
+
+public abstract class ProcessDetails {
+
+    @SuppressWarnings("all")
+    public HashMap<String, String> login() { return null;}
+
+    @SuppressWarnings("all")
+    public HashMap<String, String> relogin(String refreshToken) { return null;}
+
+    @SuppressWarnings("all")
+    public boolean logout() { return true;}
+
+}
