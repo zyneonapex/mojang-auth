@@ -1,2 +1,2 @@
 # mojang-auth
-A Java authentication library for Minecraft.
+A work-in-progress Java authentication library for Minecraft
